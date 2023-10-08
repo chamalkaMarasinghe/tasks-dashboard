@@ -18,6 +18,16 @@
   .dash-board-wrapper{
     width: 100%;
   }
+
+  .dashboard-name > h5{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .dashboard-name > .dropdown-tabs{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 620px) {
@@ -210,7 +220,7 @@ div{
 
 .progress-badge{
   color: #F2C94C;
-  background-color: #f7f1dc;
+  background-color: #faf6e8;
 }
 
 .date{

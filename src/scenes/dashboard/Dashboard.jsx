@@ -86,6 +86,14 @@ function Dashboard() {
           <div className='row'>
             <div className='col-10 col-sm109 col-md-10 col-lg-10 dashboard-name' >
               <h5>Dashboard</h5>
+              <div class="dropdown dropdown-tabs">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                  <span>Dashboard</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><i className="fa-solid fa-chart-line"></i>Dashboard</a></li>
+                </ul>
+              </div>
             </div>
             <div className='col-1 col-sm-1 col-md-1 col-lg-1 dashboard-bell'>
               <div className="d-flex justify-content-end">
